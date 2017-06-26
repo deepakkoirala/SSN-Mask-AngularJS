@@ -16,8 +16,8 @@ app.directive("ssnInput",function(){
                 $(elem).val(temp);
             });
             $(elem).on('blur',function(){
+                temp = $(elem).val();
                 if(regxa.test($(elem).val())){
-                   temp = $(elem).val();
                    $(elem).val("XXX-XX" + temp.slice(6));
                }
             });
