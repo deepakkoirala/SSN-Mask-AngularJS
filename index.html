@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Plunker</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdn.rawgit.com/digitalBush/jquery.maskedinput/master/src/jquery.maskedinput.js"></script>
+    <script data-require="angular.js@1.5.x" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular.min.js" data-semver="1.5.11"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-controller="MainCtrl">
+    <input type="text" ng-model="modelssn" ssn-input >
+    <p>Real SSN {{modelssn}} !</p>
+  </body>
+
+</html>
