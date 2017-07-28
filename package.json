@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/deepakkoirala/SSN-Mask-AngularJS/issues"
   },
-  "homepage": "https://github.com/deepakkoirala/SSN-Mask-AngularJS#readme"
+  "homepage": "https://github.com/deepakkoirala/SSN-Mask-AngularJS#readme",
+  "dependencies": {
+    "jquery.maskedinput": "^1.4.1"
+  }
 }
