@@ -1,6 +1,6 @@
 {
   "name": "ssn-mask",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mask Social Security Input using Angular JS",
   "main": "ssn-mask.js",
   "scripts": {
