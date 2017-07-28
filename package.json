@@ -1,0 +1,25 @@
+{
+  "name": "ssn-mask",
+  "version": "1.0.0",
+  "description": "Mask Social Security Input using Angular JS",
+  "main": "ssn-mask.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakkoirala/SSN-Mask-AngularJS.git"
+  },
+  "keywords": [
+    "ssn",
+    "mask",
+    "input",
+    "socialsecurity-mask"
+  ],
+  "author": "Deepak Koirala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepakkoirala/SSN-Mask-AngularJS/issues"
+  },
+  "homepage": "https://github.com/deepakkoirala/SSN-Mask-AngularJS#readme"
+}
