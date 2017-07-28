@@ -1,4 +1,4 @@
-var app = angular.module('myapp', []);
+var app = angular.module('ssnMaskMod', []);
 
 app.controller('MainCtrl', function($scope) {
   $scope.modelssn = '';
