@@ -2,18 +2,17 @@
 ```sh
 $ npm install ssn-mask
 ```
-
+##### Create app.js
 ```
-Create app.js
-
 var app = angular.module('ssnApp', ['ssnMaskMod']);
 
 app.controller('MainCtrl', function($scope) {
   $scope.ssnval = '';
 });
+```
 
-Create index.html
-
+##### Create index.html
+```
 <!DOCTYPE html>
 <html ng-app="ssnApp">
   <head>
